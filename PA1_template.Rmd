@@ -9,7 +9,7 @@ output:
 ## Loading and preprocessing the data
 
 #### 1. Load the data (i.e. read.csv())
-```{r, results='markup', warning=TRUE, message=TRUE}
+```{r}
 # libraries
 library(ggplot2)
 library(dplyr)
