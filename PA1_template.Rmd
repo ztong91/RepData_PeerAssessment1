@@ -13,6 +13,7 @@ output:
 # libraries
 library(ggplot2)
 library(dplyr)
+library(Hmisc)
 
 if(!file.exists('activity.csv')){
     unzip('activity.zip')
