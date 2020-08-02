@@ -373,22 +373,9 @@ summary {
 <pre class="r"><code># libraries
 library(ggplot2)
 library(dplyr)
-library(Hmisc)</code></pre>
-<pre><code>## Loading required package: lattice</code></pre>
-<pre><code>## Loading required package: survival</code></pre>
-<pre><code>## Loading required package: Formula</code></pre>
-<pre><code>## 
-## Attaching package: &#39;Hmisc&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:imputeR&#39;:
-## 
-##     impute</code></pre>
-<pre><code>## The following objects are masked from &#39;package:dplyr&#39;:
-## 
-##     src, summarize</code></pre>
-<pre><code>## The following objects are masked from &#39;package:base&#39;:
-## 
-##     format.pval, units</code></pre>
-<pre class="r"><code>if(!file.exists(&#39;activity.csv&#39;)){
+library(Hmisc)
+
+if(!file.exists(&#39;activity.csv&#39;)){
     unzip(&#39;activity.zip&#39;)
 }
 activityData &lt;- read.csv(&#39;activity.csv&#39;)</code></pre>
