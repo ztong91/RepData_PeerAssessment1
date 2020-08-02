@@ -15,44 +15,7 @@ output:
 library(ggplot2)
 library(dplyr)
 library(Hmisc)
-```
 
-```
-## Loading required package: lattice
-```
-
-```
-## Loading required package: survival
-```
-
-```
-## Loading required package: Formula
-```
-
-```
-## 
-## Attaching package: 'Hmisc'
-```
-
-```
-## The following object is masked from 'package:imputeR':
-## 
-##     impute
-```
-
-```
-## The following objects are masked from 'package:dplyr':
-## 
-##     src, summarize
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     format.pval, units
-```
-
-```r
 if(!file.exists('activity.csv')){
     unzip('activity.zip')
 }
